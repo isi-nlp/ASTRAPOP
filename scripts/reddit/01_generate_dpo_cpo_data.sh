@@ -1,0 +1,12 @@
+python src/reddit/generate_dpo_cpo_data.py \
+    --dataset data/reddit/train \
+    --splits train valid \
+    --save_path data/reddit/dpo_cpo_train \
+    --llama_model meta-llama/Llama-2-7b-hf \
+    --luar_model rrivera1849/LUAR-MUD \
+    --sft_model_dir trained_models/reddit/sft/transfer/best_checkpoint_merged \
+    --toward_reward \
+    --away_reward \
+    --length_penalty \
+    --batch_size 16 \
+    --n_responses_per_query 3
