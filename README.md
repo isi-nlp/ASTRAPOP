@@ -1,5 +1,5 @@
 # ASTRAPOP
-The official repository for the paper "Authorship Style Transfer with Policy Optimization".
+The official repository for the paper "[Authorship Style Transfer with Policy Optimization](https://arxiv.org/abs/2403.08043)".
 
 # Installation
 
